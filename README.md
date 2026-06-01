@@ -31,10 +31,17 @@ including sales, profit, discount, product category, customer segment, and regio
 | Pie Chart (Sales by Segment) | Consumer segment accounts for ~50% of total sales, making it the most important customer group |
 
 ### Statistical Measures
-- The mean Sales value after outlier removal was approximately **$226**, with a standard deviation of **$185**
-- Profit ranged from large losses to large gains, confirming high variability in transaction profitability
-- **Discount and Profit showed a strong negative correlation** — the most critical finding, meaning the more discount applied, the less profit the store makes
-- Sales and Profit had a moderate positive correlation, while Quantity showed very little correlation with either
+- The mean Sales value after outlier removal was approximately **$92.86**, with a standard
+  deviation of **$114.05**
+- Sales ranged from a minimum of **$0.44** to a maximum of **$498.26**
+- Mean Profit was **$11.20** with a standard deviation of **$49.07**, confirming high
+  variability in transaction profitability
+- Profit ranged from **-$1,181.28** (large loss) to **$240.86** (large gain), indicating
+  that some transactions lose significantly more than others gain
+- **Discount and Profit showed a strong negative correlation** — the most critical finding,
+  meaning the more discount applied, the less profit the store makes
+- Sales and Profit had a moderate positive correlation, while Quantity showed very little
+  correlation with either
 
 ---
 
