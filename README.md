@@ -76,7 +76,7 @@ including sales, profit, discount, product category, customer segment, and regio
 ## Repository Structure
 ```
 MSCS_634_Lab_1/
-├── MSCS_634_Lab_1_Superstore.ipynb   # Main Jupyter Notebook
+├── Lab1_DataMining_SuperStore.ipynb   # Main Jupyter Notebook
 ├── Sample - Superstore.csv           # Dataset
 ├── README.md                         # This file
 └── screenshots/
