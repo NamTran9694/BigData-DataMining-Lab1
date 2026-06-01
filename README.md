@@ -87,11 +87,5 @@ MSCS_634_Lab_1/
 ├── Sample - Superstore.csv           # Dataset
 ├── README.md                         # This file
 └── screenshots/
-    ├── viz_scatter.png
-    ├── viz_line.png
-    ├── viz_bar.png
-    ├── viz_histogram.png
-    ├── viz_boxplot.png
-    ├── viz_pie.png
-    └── viz_correlation.png
+
 ```
