@@ -52,18 +52,25 @@ including sales, profit, discount, product category, customer segment, and regio
 
 ## Challenges Faced
 
-1. **Module Not Found errors** — pandas, matplotlib, and sklearn were not installed in the Python environment.
-   Fixed by running `py -m pip install pandas numpy matplotlib seaborn scikit-learn scipy` in the terminal.
+1. **Handling Skewed Discount Data** — The discount column was heavily skewed toward zero,
+   with most transactions having little or no discount. This made it necessary to use
+   discretization (grouping into categories) rather than using the raw values directly
+   for meaningful analysis.
 
-2. **Typos in code** — `read_cvs` instead of `read_csv`, and `proprocessing` instead of `preprocessing`.
-   These caused AttributeError and ModuleNotFoundError respectively.
+2. **Profit Outliers Across Categories** — The Profit column contained extreme values
+   (both large gains and large losses), making visualization difficult. Deciding whether
+   to remove or keep these outliers required careful consideration since they represent
+   real business events such as bulk discounts and product returns.
 
-3. **Missing screenshots folder** — `plt.savefig()` threw a FileNotFoundError because the `screenshots/`
-   directory did not exist. Fixed by adding `os.makedirs('screenshots', exist_ok=True)` before the visualization cells.
+3. **Choosing the Right Scaling Method** — Different numeric columns had different
+   distributions. Sales and Quantity were strictly positive and bounded, making Min-Max
+   scaling appropriate. Profit had negative values and a wider spread, making Z-score
+   standardization a better fit.
 
-4. **Box plot scale issue** — Extreme profit outliers made the boxes nearly invisible.
-   Fixed by setting `showfliers=False` and limiting the y-axis with `ax.set_ylim(-500, 1500)`.
-
+4. **Imbalanced Category Representation** — The dataset had significantly more
+   Office Supplies transactions than Furniture or Technology. This imbalance had to
+   be considered when interpreting average statistics, as Office Supplies could
+   disproportionately influence overall means and totals.
 ---
 
 ## Repository Structure
