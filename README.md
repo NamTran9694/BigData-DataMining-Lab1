@@ -25,7 +25,7 @@ including sales, profit, discount, product category, customer segment, and regio
 |---|---|
 | Scatter Plot (Sales vs Profit) | Higher sales do not always mean higher profit — many transactions fall below zero profit due to heavy discounting |
 | Line Plot (Monthly Sales Trend) | Sales show a consistent upward trend year-over-year with Q4 peaks every year, likely driven by holiday shopping |
-| Bar Chart (Sales by Region) | The West region leads total sales, followed by East — coastal regions outperform interior ones |
+| Bar Chart (Sales by Region) | The West region leads total sales, followed by East |
 | Histogram (Discount Distribution) | Most transactions have 0–20% discount; very high discounts (>50%) are rare but are the main cause of losses |
 | Box Plot (Profit by Category) | Furniture has a median profit near zero with frequent losses; Technology has the highest and most variable profit |
 | Pie Chart (Sales by Segment) | Consumer segment accounts for ~50% of total sales, making it the most important customer group |
